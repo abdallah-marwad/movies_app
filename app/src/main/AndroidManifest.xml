@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.api">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:name=".common.app.MyApplication"
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Api"
+        tools:targetApi="33">
+        <activity
+            android:name=".ui.layout.SplashScreen"
+            android:exported="true"
+            android:theme="@style/Theme.Api.NoActionBar"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ui.layout.LoginActivity"
+            android:configChanges="locale|layoutDirection"
+            android:exported="true"
+            android:screenOrientation="portrait">
+
+        </activity>
+        <activity
+            android:name=".ui.layout.VideoActivity"
+            android:configChanges="orientation|screenSize"
+            android:exported="false" />
+        <activity
+            android:name=".ui.layout.ActivityFavourite"
+            android:configChanges="locale|layoutDirection"
+            android:exported="false"
+            android:screenOrientation="fullSensor"
+            android:theme="@style/Theme.Api.NoActionBar" />
+        <activity
+            android:name=".ui.layout.Search"
+            android:configChanges="locale|layoutDirection"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Api.NoActionBar"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".ui.layout.MainDetails"
+            android:configChanges="locale|layoutDirection"
+            android:exported="false"
+            android:theme="@style/AppTheme.ActionBar.Transparent" />
+        <activity
+            android:name=".ui.layout.MainActivity"
+            android:exported="true"
+            android:theme="@style/Theme.Api.NoActionBar"></activity>
+
+        <receiver
+            android:name=".common.app.NetworkStatesReceiver"
+            android:exported="true">
+            <intent-filter>
+                <action
+                    android:name="android.net.conn.CONNECTIVITY_CHANGE"
+                    tools:ignore="BatteryLife" />
+            </intent-filter>
+        </receiver>
+    </application>
+
+</manifest>

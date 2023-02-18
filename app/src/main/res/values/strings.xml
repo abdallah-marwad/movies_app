@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">Movies</string>
+    <string name="over_view">Over View</string>
+    <string name="category">Category</string>
+    <string name="movies">All Movies</string>
+    <string name="all_tv">All TV Shows</string>
+    <string name="popular_tv">Top Rated TV Shows</string>
+    <string name="top_rated">Top Rated Movies</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="home">Home</string>
+    <string name="search">Search</string>
+    <string name="my_list">My List</string>
+    <string name="search_editTxt">Search...</string>
+    <string name="results">Results</string>
+    <string name="genres">Genres</string>
+    <string name="poster">Poster</string>
+    <string name="there_are_no_result">There Are No Result</string>
+    <string name="favourite">Favourite</string>
+    <string name="title_activity_favorite">FavoriteActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="no_items_added_yet">No Items Added Yet</string>
+    <string name="refresh">Refresh</string>
+    <string name="play_video">Play Video</string>
+
+    <!-- Login Screen -->
+    <string name="welcome">Welcome</string>
+    <string name="skip">Skip</string>
+    <string name="email">Email</string>
+    <string name="password">password</string>
+    <string name="sing_up">Sign Up</string>
+    <string name="login">Login</string>
+    <string name="sign_in_to_continue">sign in to continue</string>
+    <string name="sign_in_with_google">sign in with Google</string>
+
+    <string name="webClint_id">996978679965-abcl8b9381sl1cbuhfh2t61bpsvt6dgc.apps.googleusercontent.com</string>
+</resources>
