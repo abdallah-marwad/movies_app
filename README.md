@@ -16,14 +16,10 @@
 
 
 **Screenshots**
-<img src="home.jpeg">
-<img src="home_no_internet.jpeg">
-<img src="login.jpeg">
-<img src="logout.jpeg">
-<img src="search genres 1.jpeg">
-<img src="search genres 2.jpeg">
-<img src="search history.jpeg">
-<img src="search.jpeg">
-<img src="favourite.jpeg">
+
+![َhome](https://github.com/abdallah-marwad/movies_app/blob/master/home.jpeg) ![َhome_logout](https://github.com/abdallah-marwad/movies_app/blob/master/logout.jpeg) ![َhome_no_internet](https://github.com/abdallah-marwad/movies_app/blob/master/home_no_internet.jpeg)
+
+
+
 
 
